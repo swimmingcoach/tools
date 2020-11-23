@@ -1,3 +1,0 @@
-
- docker build -t local.harbor.com/onecity-front/onecity-cc-gateway:v0.0.7 .
- docker push local.harbor.com/onecity-front/onecity-cc-gateway:v0.0.7
