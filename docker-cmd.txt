@@ -1,0 +1,5 @@
+# 清理onecity- 前缀的镜像
+docker rmi -f `docker images | grep onecity-*| awk '{print $3}'`
+
+# 清理无用镜像
+docker image prune

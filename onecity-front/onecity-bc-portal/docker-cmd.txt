@@ -1,0 +1,3 @@
+ 
+ docker build -t local.harbor.com/onecity-front/onecity-bc-portal:v0.0.4 .
+ docker push local.harbor.com/onecity-front/onecity-bc-portal:v0.0.4
